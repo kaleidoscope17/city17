@@ -1,0 +1,47 @@
+# dependencies
+/node_modules
+/dist
+
+# misc
+/.stscheck
+/*.log
+/*.log*
+/npm-debug.log*
+/yarn-error.log*
+/.pnpm-debug.log*
+
+# coverage (test)
+/coverage
+/.nyc_output
+
+# nest framework
+/nest-cli.json
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history
+
+# OS
+.DS_Store
+Thumbs.db
+
+# env files
+.env
+*.env
+.env.development
+.env.staging
+.env.production
+.env.local
